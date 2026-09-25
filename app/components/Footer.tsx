@@ -14,7 +14,7 @@ export function Footer() {
         </div>
 
         <div className="flex items-center gap-5">
-          <FooterLink href="#" label="LinkedIn">
+          <FooterLink href="https://www.linkedin.com/in/connorflynn-dev/" label="LinkedIn">
             <LinkedinIcon size={18} />
           </FooterLink>
           <FooterLink href="mailto:hello@wovyn.app" label="Email">
@@ -39,6 +39,9 @@ function FooterLink({
     <a
       href={href}
       aria-label={label}
+      {...(href.startsWith("http")
+        ? { target: "_blank", rel: "noopener noreferrer" }
+        : {})}
       className="transition-opacity duration-200 hover:opacity-100"
       style={{ color: "#7A7060" }}
     >
