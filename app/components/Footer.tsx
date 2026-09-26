@@ -1,4 +1,3 @@
-import { Mail } from "lucide-react";
 import { LinkedinIcon } from "./icons";
 
 export function Footer() {
@@ -16,9 +15,6 @@ export function Footer() {
         <div className="flex items-center gap-5">
           <FooterLink href="https://www.linkedin.com/in/connorflynn-dev/" label="LinkedIn">
             <LinkedinIcon size={18} />
-          </FooterLink>
-          <FooterLink href="mailto:hello@wovyn.app" label="Email">
-            <Mail size={18} />
           </FooterLink>
         </div>
       </div>

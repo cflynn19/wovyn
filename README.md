@@ -197,7 +197,7 @@ npm run dev     # http://localhost:3000
 In **TestFlight beta** with 30+ testers, shipping iteratively against real usage feedback.
 App Store release in progress.
 
-**Contact** — [LinkedIn](https://www.linkedin.com/in/connorflynn-dev/) · [hello@wovyn.app](mailto:hello@wovyn.app)
+**Contact** — [LinkedIn](https://www.linkedin.com/in/connorflynn-dev/)
 
 <sub>© 2026 Connor Flynn. All rights reserved. Wovyn is a commercial product — this
 repository is published for reference, not for reuse. No license is granted to the code,
