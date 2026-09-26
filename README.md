@@ -40,8 +40,11 @@ reading progress session by session, surfaces books through a feed ranked on you
 reading behaviour rather than a raw follow graph, and turns the resulting history into
 stats worth looking at.
 
-It is a solo-built production system: iOS and Android client, Firebase backend, scheduled
-recommendation jobs, security rules, and release pipeline — all of it mine.
+It is a two-person production system — iOS and Android client, Firebase backend, scheduled
+recommendation jobs, security rules, and release pipeline. I built it with a friend who
+contributed a substantial share of the app across the client and the data layer, and I was
+the primary contributor at roughly 60% of commits. The architecture and the systems
+described below are work I led and can speak to end to end.
 
 ### By the numbers
 
