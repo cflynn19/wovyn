@@ -1,8 +1,8 @@
 const highlights = [
-  { value: "45K+", label: "Lines of Dart", sub: "Production codebase" },
-  { value: "20+", label: "Cloud Functions", sub: "Backend workflows" },
-  { value: "Custom", label: "Feed Ranking", sub: "Multi-factor scoring engine" },
-  { value: "30+", label: "Beta Users", sub: "Real-world feedback loop" },
+  { value: "Free", label: "While in beta", sub: "No card, no catch" },
+  { value: "30+", label: "Readers in the beta", sub: "Growing every week" },
+  { value: "1 tap", label: "To start reading", sub: "No setup, no friction" },
+  { value: "Auto", label: "Progress saved", sub: "Even if you close the app" },
 ];
 
 export function Stats() {

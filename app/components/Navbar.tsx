@@ -2,10 +2,9 @@ import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 
 const navLinks = [
-  { label: "Overview", href: "#overview" },
+  { label: "How it works", href: "#overview" },
   { label: "Features", href: "#features" },
-  { label: "Engineering", href: "#engineering" },
-  { label: "Beta", href: "#beta" },
+  { label: "Join the beta", href: "#beta" },
 ];
 
 export function Navbar() {
@@ -53,7 +52,7 @@ export function Navbar() {
         style={{ backgroundColor: "#2D5016", color: "#FAF8F3" }}
       >
         <ExternalLink size={13} />
-        TestFlight
+        Get the app
       </a>
     </header>
   );

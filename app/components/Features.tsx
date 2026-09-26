@@ -3,39 +3,40 @@ import { Zap, BookOpen, Compass, RefreshCw, User, Users } from "lucide-react";
 
 const features = [
   {
-    icon: Compass,
-    title: "Personalized Feed",
+    icon: BookOpen,
+    title: "Sessions that remember",
     description:
-      "Ranking system based on reading behavior, engagement, and content quality signals.",
+      "Hit start and read. Close the app, take a call, come back tomorrow — your session and your page are exactly where you left them.",
   },
   {
-    icon: BookOpen,
-    title: "Reading Tracking",
+    icon: Compass,
+    title: "A feed worth scrolling",
     description:
-      "Persistent session tracking with progress history and session recovery across restarts.",
+      "Books surfaced from what you actually read and who you read with, instead of whatever a bestseller list says this week.",
   },
   {
     icon: Zap,
-    title: "Book Discovery",
+    title: "Your next book, found",
     description:
-      "Dynamic recommendations based on user taste profiles and collaborative signals.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Real-time Updates",
-    description: "Live sync across devices using Firebase backend infrastructure.",
+      "Fresh picks every week, plus trending and top-rated shelves from the whole community.",
   },
   {
     icon: User,
-    title: "User Profiles",
+    title: "Stats that keep you honest",
     description:
-      "Reading stats, history, and engagement analytics presented cleanly.",
+      "Pages, minutes, streaks, and a year of reading at a glance — see the habit build instead of guessing at it.",
   },
   {
     icon: Users,
-    title: "Social Layer",
+    title: "Read with people",
     description:
-      "Interaction features and activity-based signals that surface what people are reading.",
+      "Follow friends, pair up with an accountability partner, and see what everyone is actually finishing.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Always in sync",
+    description:
+      "Your library and progress follow you across devices, and keep working when the signal does not.",
   },
 ];
 
@@ -48,10 +49,10 @@ export function Features() {
           className="text-[clamp(1.75rem,4vw,2.75rem)] tracking-tight"
           style={{ color: "#1C1915", fontWeight: 700, letterSpacing: "-0.02em" }}
         >
-          Everything you need to read well
+          Built for people who want to read more
         </h2>
         <p className="max-w-xl text-base" style={{ color: "#7A7060" }}>
-          Built to feel native, perform reliably, and improve with every session.
+          Every feature earns its place by getting you back into a book.
         </p>
       </div>
 

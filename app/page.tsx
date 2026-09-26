@@ -3,7 +3,6 @@ import { Hero } from "./components/Hero";
 import { Overview } from "./components/Overview";
 import { Features } from "./components/Features";
 import { Stats } from "./components/Stats";
-import { Engineering } from "./components/Engineering";
 import { Beta } from "./components/Beta";
 import { Footer } from "./components/Footer";
 
@@ -18,7 +17,6 @@ export default function Home() {
       <Overview />
       <Features />
       <Stats />
-      <Engineering />
       <Beta />
       <Footer />
     </div>

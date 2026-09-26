@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wovyn — A mobile reading platform",
+  title: "Wovyn — Track your reading, finish more books",
   description:
-    "A full-stack mobile reading platform built with Flutter and Firebase, featuring personalized discovery, reading tracking, and real-time social features.",
+    "Wovyn tracks every reading session, builds your streak, and helps you find your next book through friends and a feed that learns what you love. Free while in beta.",
 };
 
 export default function RootLayout({

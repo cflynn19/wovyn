@@ -9,10 +9,13 @@ export function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="flex flex-col items-center sm:items-start gap-1">
           <span className="text-sm font-semibold" style={{ color: "#1C1915" }}>Wovyn</span>
-          <span className="text-xs" style={{ color: "#7A7060" }}>Built independently · 2026</span>
+          <span className="text-xs" style={{ color: "#7A7060" }}>Made for readers · © 2026</span>
         </div>
 
         <div className="flex items-center gap-5">
+          <FooterLink href="https://github.com/cflynn19/wovyn" label="Source on GitHub">
+            <span className="text-xs">Source on GitHub</span>
+          </FooterLink>
           <FooterLink href="https://www.linkedin.com/in/connorflynn-dev/" label="LinkedIn">
             <LinkedinIcon size={18} />
           </FooterLink>

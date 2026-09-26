@@ -25,22 +25,31 @@ export function Hero() {
           }}
         >
           <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ backgroundColor: "#2D5016" }} />
-          Now in TestFlight Beta
+          Now in beta — free to join
         </div>
 
-        <h1
-          className="text-[clamp(3.5rem,9vw,7rem)] tracking-tight"
-          style={{ color: "#1C1915", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1 }}
-        >
-          Wovyn
-        </h1>
+        <div className="flex flex-col items-center gap-5">
+          <div className="flex items-center gap-2">
+            <Image src="/wovyn_icon.svg" alt="" width={26} height={26} priority />
+            <span className="text-base font-semibold tracking-tight" style={{ color: "#1C1915" }}>
+              Wovyn
+            </span>
+          </div>
+
+          <h1
+            className="text-[clamp(2.5rem,6.5vw,4.75rem)] tracking-tight max-w-4xl"
+            style={{ color: "#1C1915", fontWeight: 700, letterSpacing: "-0.03em", lineHeight: 1.05 }}
+          >
+            Finally finish the books you start.
+          </h1>
+        </div>
 
         <p
           className="max-w-2xl text-[clamp(1rem,2.5vw,1.25rem)] leading-relaxed"
           style={{ color: "#7A7060" }}
         >
-          A full-stack mobile reading platform built with Flutter and Firebase, featuring
-          personalized discovery, reading tracking, and real-time social features.
+          Wovyn turns reading into a habit you can actually see. Track every session, watch your
+          streak build, and find your next book through people who really read.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
@@ -52,12 +61,19 @@ export function Hero() {
             style={{ backgroundColor: "#2D5016", color: "#FAF8F3" }}
           >
             <ExternalLink size={16} />
-            Join TestFlight Beta
+            Join the free beta
+          </a>
+          <a
+            href="#features"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-medium border transition-all duration-200 hover:opacity-80"
+            style={{ borderColor: "rgba(45,30,10,0.16)", color: "#1C1915" }}
+          >
+            See how it works
           </a>
         </div>
 
         <p className="text-sm" style={{ color: "#7A7060" }}>
-          Built and deployed independently&nbsp;&nbsp;•&nbsp;&nbsp;30+ beta users
+          Free on iPhone while in beta&nbsp;&nbsp;•&nbsp;&nbsp;30+ readers already tracking
         </p>
 
         <div className="mt-10 relative flex items-end justify-center gap-4">

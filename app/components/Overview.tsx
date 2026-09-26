@@ -11,16 +11,15 @@ export function Overview() {
             className="text-[clamp(1.75rem,4vw,2.75rem)] tracking-tight"
             style={{ color: "#1C1915", fontWeight: 700, letterSpacing: "-0.02em", lineHeight: 1.15 }}
           >
-            A reading platform that works the way you do
+            Reading, minus the guesswork
           </h2>
           <p className="text-base leading-relaxed" style={{ color: "#7A7060" }}>
-            Wovyn is a mobile reading platform that helps users track reading progress, discover
-            books through a personalized feed, and engage with reading insights and activity
-            over time. Every detail — from session recovery to real-time sync — is built for
-            readers who take their habits seriously.
+            Open the app, hit start, and read. Wovyn keeps your place, counts your pages, and
+            turns the whole thing into stats worth looking at. No spreadsheets, no logging books
+            weeks later from memory — just a clear picture of what you&apos;re reading and how often.
           </p>
           <div className="flex flex-wrap gap-3 mt-2">
-            {["Flutter", "Firebase", "Cloud Functions", "TestFlight"].map((tag) => (
+            {["Session tracking", "Reading stats", "Book discovery", "Friends"].map((tag) => (
               <span
                 key={tag}
                 className="px-3 py-1 rounded-lg text-xs font-medium"
